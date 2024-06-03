@@ -71,11 +71,10 @@ public class InputHandler : MonoBehaviour
     private void HandleRollInput(float delta)
     {
         b_Input = inputActions.PlayerAction.Roll.phase == UnityEngine.InputSystem.InputActionPhase.Started;
-
-        Debug.Log(b_Input);
+        
         if (b_Input)
         {
-            Debug.Log("S");
+            Debug.Log("Roll");
             rollFlag = true;
         }
     }
