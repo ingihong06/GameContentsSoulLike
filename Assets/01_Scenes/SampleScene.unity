@@ -194,6 +194,8 @@ MonoBehaviour:
   moveAmount: 0
   mouseX: 0
   mouseY: 0
+  b_Input: 0
+  rollFlag: 0
 --- !u!54 &81067735
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -791,8 +793,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4a09477f5fdb14fbfc40fa3deb3129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: 1051620594}
   canRotate: 1
+--- !u!95 &1051620594 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: cc31a0552597ac0419d230e9e23b1fec, type: 3}
+  m_PrefabInstance: {fileID: 1051620590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587945309
 GameObject:
   m_ObjectHideFlags: 0
