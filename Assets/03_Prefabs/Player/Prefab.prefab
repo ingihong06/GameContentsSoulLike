@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2566661290242190307}
-  - component: {fileID: 4244229969029178128}
   m_Layer: 10
   m_Name: Camera Holder
   m_TagString: Untagged
@@ -33,29 +32,6 @@ Transform:
   - {fileID: 7657016323251012668}
   m_Father: {fileID: 1969270358391509080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4244229969029178128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319815336309568651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a445e3de662f484081ed5ed3002aca8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTrandform: {fileID: 4206978896817186653}
-  cameraTransform: {fileID: 2436512850885858533}
-  cameraPivotTransform: {fileID: 7657016323251012668}
-  lookSpeed: 0.1
-  followSpeed: 0.1
-  pivotSpeed: 0.03
-  minimumPivot: -35
-  maximumPivot: 35
-  cameraSphereRadius: 0.2
-  cameraCollisionOffSet: 0.2
-  minimunCollisionOffset: 0.2
 --- !u!1 &4964977114607393556
 GameObject:
   m_ObjectHideFlags: 0
